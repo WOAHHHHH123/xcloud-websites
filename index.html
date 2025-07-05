@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XCLOUD NETWORK - Game Server Hosting</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0a0f2c, #1f2a56);
+      color: #e0e0e0;
+      overflow-x: hidden;
+    }
+    header {
+      background: #11152a;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 2px solid #4cc9f0;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 2px solid #4cc9f0;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #4cc9f0;
+      margin: 10px 0 5px;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+    nav {
+      background-color: #151b3b;
+      padding: 15px 0;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 20px;
+      color: #4cc9f0;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+    nav a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background: #4cc9f0;
+      bottom: -5px;
+      left: 0;
+      transition: width 0.3s ease;
+    }
+    nav a:hover {
+      color: #90e0ef;
+      transform: scale(1.1);
+    }
+    nav a:hover::after {
+      width: 100%;
+    }
+    .section {
+      padding: 60px 20px 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      color: #4cc9f0;
+      margin-bottom: 40px;
+      border-bottom: 2px solid #4cc9f0;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .description {
+      background: rgba(21, 27, 59, 0.95);
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      line-height: 1.8;
+      margin-bottom: 40px;
+      color: #ddd;
+    }
+    .plans {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+    .plan {
+      background: rgba(26, 32, 68, 0.95);
+      border: 1px solid #4cc9f0;
+      border-radius: 12px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(76, 201, 240, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .plan:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(76, 201, 240, 0.6);
+    }
+    .plan h3 {
+      color: #4cc9f0;
+      margin-bottom: 10px;
+    }
+    .plan p {
+      margin: 6px 0;
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+    .plan strong {
+      display: block;
+      margin-top: 10px;
+      color: #fff;
+      font-size: 1.1rem;
+    }
+    .plan a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #4cc9f0;
+      color: #000;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    .plan a:hover {
+      background: #90e0ef;
+      transform: scale(1.05);
+    }
+    .plan a:active {
+      transform: scale(0.95);
+      background: #38b6ff;
+    }
+    footer {
+      background-color: #1b1b2f;
+      color: #c0c0c0;
+      padding: 30px 15px;
+      text-align: center;
+      font-size: 0.95rem;
+      border-top: 2px solid #4cc9f0;
+    }
+    footer a {
+      color: #4cc9f0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer a:hover {
+      color: #90e0ef;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://cdn.discordapp.com/attachments/1390981120241307708/1390998115120713768/file_00000000116c61f9b36418ec9e28fd79.png" alt="XCloud Logo">
+    <h1>XCLOUD NETWORK</h1>
+    <p>Professional Game Server Hosting Powered by Intel Xeon</p>
+  </header>
+
+  <nav>
+    <a href="#invite">Invite Rewards</a>
+    <a href="#boost">Boost Plans</a>
+    <a href="#paid">Paid Plans</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="section">
+    <div class="section-title">⚙️ Hosting Specifications</div>
+    <div class="description">
+      <p>High-performance game hosting powered by <strong>Intel Xeon</strong> processors.<br>
+      Indian data centers ensure <strong>low latency</strong> for regional players.<br>
+      Protected with <strong>enterprise-grade DDoS defense</strong>.<br>
+      Full access to our <strong>Premium GamePanel</strong> for managing Minecraft, Rust, CS2 and more.</p>
+      <p>🔗 Join our community: <a href="https://discord.gg/Mjya4See7f" style="color:#c68fff">discord.gg/Mjya4See7f</a></p>
+    </div>
+  </section>
+
+  <section id="invite" class="section">
+    <div class="section-title">🎁 Invite Rewards</div>
+    <div class="description">
+      <p><strong>3x Invites</strong> = 4GB RAM / 1 Core / 10GB Disk</p>
+      <p><strong>4x Invites</strong> = 6GB RAM / 2 Core / 20GB Disk</p>
+      <p><strong>8x Invites</strong> = 10GB RAM / 3 Core / 30GB Disk</p>
+    </div>
+  </section>
+
+  <section id="boost" class="section">
+    <div class="section-title">🚀 Boost Plans</div>
+    <div class="description">
+      <p><strong>2x Boost</strong> = 12GB RAM / 4 Core / 100GB Disk</p>
+      <p><strong>4x Boost</strong> = 24GB RAM / 6 Core / 150GB Disk</p>
+      <p><strong>6x Boost</strong> = 32GB RAM / 8 Core / 200GB Disk</p>
+    </div>
+  </section>
+
+  <section id="paid" class="section">
+    <div class="section-title">💎 Paid Plans</div>
+    <div class="plans">
+      <div class="plan">
+        <h3>DIRT PLAN</h3>
+        <p>4GB RAM • 100% CPU • 10GB Disk</p>
+        <strong>₹99 / month</strong>
+        <a href="https://discord.gg/Mjya4See7f">Buy Now</a>
+      </div>
+      <div class="plan">
+        <h3>WOOD PLAN</h3>
+        <p>6GB RAM • 150% CPU • 15GB Disk</p>
+        <strong>₹128 / month</strong>
+        <a href="https://discord.gg/Mjya4See7f">Buy Now</a>
+      </div>
+      <div class="plan">
+        <h3>STONE PLAN</h3>
+        <p>8GB RAM • 350% CPU • 35GB Disk</p>
+        <strong>₹210 / month</strong>
+        <a href="https://discord.gg/Mjya4See7f">Buy Now</a>
+      </div>
+      <div class="plan">
+        <h3>IRON PLAN</h3>
+        <p>12GB RAM • 400% CPU • 50GB Disk</p>
+        <strong>₹470 / month</strong>
+        <a href="https://discord.gg/Mjya4See7f">Buy Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="section-title">📬 Contact Us</div>
+    <div class="description">
+      <p>Got questions, feedback, or need help? Reach out to us:</p>
+      <p>Email: <strong>umarproshaikh@gmail.com</strong></p>
+      <a class="plan a" href="https://discord.gg/Mjya4See7f" target="_blank">Join Discord</a>
+    </div>
+  </section>
+  <footer>
+    <p style="margin-bottom: 10px;">© 2025 <strong style="color:#4cc9f0;">XCLOUD NETWORK</strong>. All rights reserved. Built for gamers, by gamers. 🕹️</p>
+    <p style="margin-bottom: 10px;">Contact us: <strong style="color:#f72585;">umarproshaikh@gmail.com</strong> | <a href="https://discord.gg/Mjya4See7f" target="_blank">Join our Discord</a></p>
+    <p style="margin-top: 10px;">Hosting premium Minecraft, Rust, and CS2 game servers with Intel Xeon CPUs, Indian data centers, and DDoS protection.</p>
+  </footer>
+</body>
+</html>
